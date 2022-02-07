@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import CuentaAtras from './componentes/CuentaAtras/CuentaAtras';
+import RelojDigital from './componentes/RelojDigital/RelojDigital';
+import Cronometro from './componentes/Cronometro/Cronometro'; 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+
   document.getElementById('root')
 );
 
